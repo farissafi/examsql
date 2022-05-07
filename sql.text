@@ -1,0 +1,25 @@
+- select * from Car where Car_id = 222;
+2-select Car_name from Car where cost  > 2000 order by cost ASC ; 
+3-
+4-select * from Car where color <> white ;
+5-select * from Company  where Com_id = 3 ; 
+6- select  Car_name form Car where Pro_data = #15/4/2016# and Cost > 20000 ;  
+7-
+8-select *from Car where car-id =["ادخل رقم السيارة "]  ;
+9-
+10-
+11-select Car_name , pro_data from Car  order by Pro_data DESC;
+12- select  count(Car_id) from Car where color <> white ;
+13-select sum(cost) from Car where color= blake; 
+14- select min (cost) from Car ; 
+15-update car set cost =28000 where car_id = 333; 
+16- 
+17- update car set car_name =forester where car_id=["ادخل سيارة "];
+18-update car set pro_data  =#1/1/2019# where id=444;
+19-update car set pro_data  =#13/7/2018# , color=red  , cost= 16000 where id = 111;
+20-delete from car where id=111 ; 
+21-delete from car where id=222 and cost <25000 ; 
+22-delete from car where id=["ادخل الخرا ي خرا "] ; 
+23- 
+24-delete from car where id =666;
+25-
